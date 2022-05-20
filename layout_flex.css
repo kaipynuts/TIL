@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.viewport {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.viewport div{
+    display: flex;
+    flex-direction: row;
+}
+
+/* 상단 네비게이션바 */
+.header {
+    flex-basis: 50px;
+    justify-content: space-between;
+}
+
+.header div{
+    width:50px;
+    align-self: center;
+}
+
+/* 하단 아이콘 독바 */
+.footer {
+    flex-basis: 100px;
+}
+
+.footer div{
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+}
+
+/* 컨테이너 1 */
+.item1 {
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.item1 div{
+    border: 1px solid black;
+    width:20%;
+    margin:20px;
+}
+
+/* 컨테이너 2 */
+.item2 {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.item2 div{
+    border: 1px solid black;
+    width:20%;
+    margin:20px;
+}
+
+/* 컨테이너 3 */
+.item3 {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.item3 div{
+    border: 1px solid black;
+    width:20%;
+    margin:20px;
+}

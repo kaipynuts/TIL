@@ -142,6 +142,7 @@ flex-wrap:wrap; 이 설정된 상태에서 아이탬들의 행이 2줄 이상 �
 아이템의 기본 크기 설정 (flex-direction이 row일 때는 너비, column일 때는 높이)
 아이템이 기본 크기보다 작을 경우 기본 크기에 맞춰주는 속성
 * width 속성과 같이 사용할 경우 기본 크기보다 클 경우에도 기본 크기에 맞춰진다.
+* flex-basis와 flex-grow 값을 같이 지정할 경우 크기는 flex-basis + flex-grow 가 된다.
 ```css
 .item {
 	flex-basis: auto; /* 기본값 */
@@ -243,4 +244,10 @@ z-index를 설정 안하면 0이므로, 1만 설정해도 나머지 아이템을
 	transform: scale(2);
 }
 ```
+
+<br>
+
 -----
+## **grid**
+
+### **기본 사용법**
