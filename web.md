@@ -17,3 +17,16 @@ vue
 
 git > coarsoft-book > vue.js
 vue 마인드맵(gitmind)
+
+css
+미디어 쿼리
+@media
+landscape / portait (?)
+
+hoisting?
+함수 표현식
+let [함수명] = function(){
+    
+}
+
+Javascript Web Token
