@@ -251,3 +251,159 @@ z-index를 설정 안하면 0이므로, 1만 설정해도 나머지 아이템을
 ## **grid**
 
 ### **기본 사용법**
+2차원 레이아웃 시스템
+부모(div.container) / 자식(div.item) 요소로 구성
+
+* 용어
+그리드 컨테이너 : 틀
+그리드 아이템 : 틀 내의 자식들
+그리드 트랙 : 행 또는 열
+그리드 셀 : 한 칸
+그리드 라인 : 행과 열을 구분하는 선
+그리드 번호 : 각 그리드의 번호
+그리드 갭 : 그리드 셀 사이의 간격
+그리드 영역 : 그리드 라인으로 둘러싸인 사각형 영역
+
+
+```html
+<div class="container">
+	<div class="item">A</div>
+	<div class="item">B</div>
+	<div class="item">C</div>
+	<div class="item">D</div>
+	<div class="item">E</div>
+	<div class="item">F</div>
+	<div class="item">G</div>
+	<div class="item">H</div>
+	<div class="item">I</div>
+</div>
+```
+
+<br>
+
+### **display: grid :**
+grid 레이아웃을 사용하기 위한 속성
+
+```css
+.container {
+	display: grid;
+}
+```
+
+<br>
+
+### **grid-template-rows / grid-template-columns :**
+트랙의 크기를 지정하는 속성 (표 만들기)
+* 비율을 지정하는 단위 	fr
+
+```css
+.container {
+	grid-template-columns: 200px 200px 500px;
+	/* grid-template-columns: 1fr 1fr 1fr */
+	/* grid-template-columns: repeat(3, 1fr) */
+	/* grid-template-columns: 200px 1fr */
+	/* grid-template-columns: 100px 200px auto */
+
+	grid-template-rows: 200px 200px 500px;
+	/* grid-template-rows: 1fr 1fr 1fr */
+	/* grid-template-rows: repeat(3, 1fr) */
+	/* grid-template-rows: 200px 1fr */
+	/* grid-template-rows: 100px 200px auto */
+}
+```
+* 함수
+- repeat : 반복 처리
+	repeat(반복횟수, 반복값)
+	ex. repeat(5, 1fr) : 1fr 5개, repeat(3, 1fr 4fr 2fr) 1fr, 4fr, 2fr 3개 (총 9개)
+- minmax : 최소값, 최대값 지정
+	minmax(최소값, 최대값)
+	ex. minmax(100px, auto) : 최소 100px, 최대 자동으로 늘어나게
+
+* 자동 지정 값 : 갯수를 미리 지정하지 않고 설정된 너비가 허용하는한 최대로 셀을 만든다
+- auto-fill : 설정된 너비만큼 셀의 크기를 설정하되 남은 공간은 비워둔다
+- auto-fit : 설정된 너비만큼 셀의 크기를 설정한 후 남은 공간이 있는 경우 꽉 채워서 맞춘다
+
+<br>
+
+### **row-gap / column-gap / gap :**
+그리드 셀 사이 간격을 설정하는 속성
+! IE에는 gap 대체 속성이 없다.
+
+```css
+.container {
+	row-gap: 10px;
+	/* row의 간격을 10px로 */
+	column-gap: 20px;
+	/* column의 간격을 20px로 */
+}
+```
+
+```css
+.container {
+	gap: 10px 20px;
+	/* row-gap: 10px; column-gap: 20px; */
+}
+```
+<br>
+
+### **grid-auto-columns / grid-auto-rows :**
+그리드 형태를 자동으로 정의하는 속성 (크기를 자동으로 정의)
+글자가 있는경우에 그 글자크기에 맞춰서 칸이 늘어나거나 줄어든다.
+* minmax 함수와 같이 쓰는 경우, 최소크기를 자동으로 정의한다. 
+
+```css
+.container {
+	grid-auto-rows: minmax(100px, auto);
+}
+```
+<br>
+
+### **grid-column-start / grid-column-end / grid-column :**
+### **grid-row-start / grid-row-end / grid-row :**
+그리드 라인 번호를 이용하여 셀의 영역을 지정하는 속성
+grid-column과 grid-row는 축약형
+
+```css
+.item:nth-child(1) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+```
+위와 동일한 효과를 내는 코드
+```css
+.item:nth-child(1) {
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+}
+```
+<br>
+
+### **grid-template-area :**
+영역에 이름을 붙인 후 배치하는 속성
+셀 구분은 공백
+빈셀은 .(마침표)나 none
+
+```css
+.container {
+	grid-template-areas:
+		"header header header"
+		"   a    main    b   "
+		"   .     .      .   "
+		"footer footer footer";
+}
+```
+위와 같이 레이아웃 정의 후 영역 이름 매칭
+
+```css
+.header { grid-area: header; }
+.sidebar-a { grid-area: a; }
+.main-content { grid-area: main; }
+.sidebar-b { grid-area: b; }
+.footer { grid-area: footer; }
+/* 이름 값에 따옴표가 없는 것에 주의하세요 */
+```
+<br>
+
+### **grid-auto-flow :**
