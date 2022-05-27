@@ -50,3 +50,39 @@ treejs (웹에서 3d 구현)
 부동소수점문제
 오사오입
 파이썬에서는 반올림시 정수부분이 짝수면 내림, 홀수면 올림
+
+service workers
+pwa (프로그레시브 웹 앱)
+
+ES6 문법
+
+    ` (back tick)
+
+    arrow function (=> function)
+    전역 객체를 원활하게 쓸 수 있도록 해줌.
+    const 함수명 = (매개변수) => 내용; (축약형)
+
+    구조 분해 할당 ***
+    동적 바인딩!
+    undefined 값 체크용으로 많이 사용
+    { 내용물 : 변수 }로 설정시 변수로 선언할 수 있다.
+
+    spread 연산 (객체 복제)
+    const aa = {
+        ...body,
+        c: 1 (내용 추가)
+    }
+
+    Object.assign이랑 비슷한 내용
+
+    splice는 본체값을 변경 / 제거한 값을 리턴
+    slice는 변경한 값을 리턴
+
+    map과 foreach가 비슷
+
+    reduce 값 다 더해줌
+
+    findIndex 조건으로 검색 / 첫번째 인덱스 리턴
+    search 정규식으로 검색
+
+    *w3c에서 메뉴얼 보고 리턴값이 있는지 확인해보고 작업하기!
