@@ -11,7 +11,7 @@ npx 해당폴더에서 명령 실행 ?
 
 quasar
 Axios
-Vue-i18n : 국제 규격을 맞춰줌
+i18n : 국제 규격을 맞춰줌
 
 vue
 
