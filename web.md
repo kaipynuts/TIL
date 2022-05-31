@@ -13,12 +13,16 @@ quasar
 Axios
 i18n : 국제 규격을 맞춰줌
 
+app.scss : quasar css 파일
+
 vue
 
 git > coarsoft-book > vue.js
 vue 마인드맵(gitmind)
 
 css
+scoped (해당 컴포넌트, 해당 페이지 내에만 css가 적용되는 속성)
+
 미디어 쿼리
 @media
 가로 landscape  / 세로 portrait (?)
