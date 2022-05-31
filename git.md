@@ -38,3 +38,9 @@ $ git clone [git code  주소]
 
 해결 : git에서 token을 만들어 비밀번호 대신 사용
 참고자료 : [GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) | [블로그1](https://shinye0213.tistory.com/105) | [블로그2](https://hyeo-noo.tistory.com/184)
+
+
+> git: fatal ... is outside repository at ...
+
+해결 : 상위 폴더를 한글에서 영문으로 변경하여 사용
+참고자료 : [블로그](https://gyong0117.tistory.com/entry/M1-%EB%A7%A5%EB%B6%81-Git-fatal-is-outside-repository-at-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0)
