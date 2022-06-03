@@ -43,3 +43,13 @@ props = attribute
 
 - Notify
     = toast
+
+
+#### **Layout**
+- **q-page-sticky**
+    특정 위치에 고정된 컨테이너를 만들 수 있다. (ex. 상단에 고정된 헤더)
+    * q-header와 다른점 : background-color가 없다. q-header는 background-color가 있기 때문에 아래 컨테이너와 동일한 background-color를 사용해야 하는 경우 어려움이 있음.
+
+    속성 :
+    - expand : full-width
+    - position : top / bottom / left / right (* 두개를 조합하여 설정 가능 ex.top-left)
