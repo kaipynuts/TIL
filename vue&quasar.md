@@ -63,3 +63,8 @@ props = attribute
 ### CSS
 - 비율에 따라 사이즈가 조정되는 svg 이미지 구현하기
 [참조 링크](https://im-developer.tistory.com/200)
+
+- svg 소스 수정하기
+[참조 링크](https://code-masterjung.tistory.com/108)
+preserveAspectRatio = "none" 으로 설정해야 필요없는 여백이 안나온다.
+transform = translate(0,0) 으로 지정하면 좌표가 0,0으로 이동한다.
