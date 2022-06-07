@@ -31,6 +31,7 @@ $ git clone [git code  주소]
 
 
 #### git merge 방법
+git fetch --> get last version
 git merge [branch name]
 git status  --> conflict or staging
     deleted by them : git rm [file name]
