@@ -31,12 +31,14 @@ $ git clone [git code  주소]
 
 
 #### git merge 방법
-병합할 위치에 가서 checkout
-우클릭 후 
-충돌난 파일에 대하여 해결
-삭제된 파일은 rm 명령으로 삭제함
-수신된 내용으로 병합? 하여 add 명령으로 추가함
-모두 스테이징 처리 되면 commit
+git merge [branch name]
+git status  --> conflict or staging
+    deleted by them : git rm [file name]
+    both modified : 
+        nano [file name] : file check
+        git add [file name]
+git commit -> :q
+
 
 <br>
 
