@@ -18,6 +18,8 @@
 #### Vue
 routes에 path로 지정을 하면 화면을 세팅할 수 있다.
 
+[이벤트 관련 정리](https://uxgjs.tistory.com/119)
+
 #### Quasar
 props = attribute
 
