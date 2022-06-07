@@ -48,6 +48,9 @@ props = attribute
 
 
 #### **Layout**
+- **flex**
+클래스 규칙 맨 아래 정규식 참고[Quasar 링크](https://quasar.dev/layout/grid/introduction-to-flexbox)
+
 - **q-page-sticky**
     특정 위치에 고정된 컨테이너를 만들 수 있다. (ex. 상단에 고정된 헤더)
     * q-header와 다른점 : background-color가 없다. q-header는 background-color가 있기 때문에 아래 컨테이너와 동일한 background-color를 사용해야 하는 경우 어려움이 있음.
