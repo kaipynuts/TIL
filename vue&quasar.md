@@ -1,4 +1,4 @@
-### Vue.js & Quasar
+### Vue.js & Quasar & CSS
 
 폴더구조
 - public
@@ -55,3 +55,8 @@ props = attribute
     속성 :
     - expand : full-width
     - position : top / bottom / left / right (* 두개를 조합하여 설정 가능 ex.top-left)
+
+
+### CSS
+- 비율에 따라 사이즈가 조정되는 svg 이미지 구현하기
+[참조 링크](https://im-developer.tistory.com/200)
