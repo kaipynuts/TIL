@@ -79,3 +79,8 @@ props = attribute
 [참조 링크](https://code-masterjung.tistory.com/108)
 preserveAspectRatio="none" 으로 설정해야 필요없는 여백이 안나온다.
 transform = translate(0,0) 으로 지정하면 좌표가 0,0으로 이동한다.
+
+- 매번 봐도 어려운 position: absolute / relative
+relative 는 원래 위치 기준으로 얼마나 움직일지 정해주는것
+absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주는것
+[참조 링크](https://www.daleseo.com/css-position/)
