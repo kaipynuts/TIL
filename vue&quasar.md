@@ -18,7 +18,16 @@
 #### Vue
 routes에 path로 지정을 하면 화면을 세팅할 수 있다.
 
+[Vue.js 기초](https://joshua1988.github.io/web-development/vuejs/vuejs-tutorial-for-beginner/)
+
 [이벤트 관련 정리](https://uxgjs.tistory.com/119)
+
+##### **문제해결**
+> import Vue from 'vue'
+
+해결 : es6 문법 수정으로 인하여 변경해줌
+    import ~ from -> const ~ require([file name])
+[참고자료](https://stackoverflow.com/questions/65978209/vue-router-import-not-working-with-require)
 
 #### Quasar
 props = attribute
