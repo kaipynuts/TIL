@@ -87,3 +87,6 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 
 - 이것도 매번 봐도 어려운 상대적 사이즈 em / rem
 [참조 링크](https://www.daleseo.com/css-em-rem/)
+
+- rem 보다 더 쓸만한 반응형 사이즈 vw / vh
+[참조 링크](https://nykim.work/85)
