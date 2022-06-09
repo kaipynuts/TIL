@@ -84,3 +84,6 @@ transform = translate(0,0) 으로 지정하면 좌표가 0,0으로 이동한다.
 relative 는 원래 위치 기준으로 얼마나 움직일지 정해주는것
 absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주는것
 [참조 링크](https://www.daleseo.com/css-position/)
+
+- 이것도 매번 봐도 어려운 상대적 사이즈 em / rem
+[참조 링크](https://www.daleseo.com/css-em-rem/)
