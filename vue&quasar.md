@@ -1,4 +1,4 @@
-### Vue.js & Quasar & CSS
+### Vue.js & Quasar & Javascript & CSS
 
 폴더구조
 - public
@@ -23,6 +23,8 @@ routes에 path로 지정을 하면 화면을 세팅할 수 있다.
 [이벤트 관련 정리](https://uxgjs.tistory.com/119)
 
 [vue3용 swiper](https://swiperjs.com/vue)
+
+[Vuex 개념 정리](https://webruden.tistory.com/340)
 
 ##### **문제해결**
 > import Vue from 'vue'
@@ -70,6 +72,9 @@ props = attribute
     - expand : full-width
     - position : top / bottom / left / right (* 두개를 조합하여 설정 가능 ex.top-left)
 
+### Javascript
+- sort() 시간 순, 역순으로 정렬하기
+[참조 링크](https://dkmqflx.github.io/frontend/2021/04/21/javascript-sortbydate/)
 
 ### CSS
 - 비율에 따라 사이즈가 조정되는 svg 이미지 구현하기
