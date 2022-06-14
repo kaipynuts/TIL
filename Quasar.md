@@ -26,7 +26,7 @@ QLayout내에서 QPage를 캡슐화 할때 사용 (보통 router-view를 감싸�
     부모 내의 마지막 요소여야함
 
 #### **- [QPageScroller](https://quasar.dev/layout/page-scroller)**
-특정 스크롤에 위치하면 표시되는 요소를 만들때 사용
+스크롤이 내려가 있을때 / 올라와 있을때 (reverse) 표시할 요소를 만들때 사용
 > 주의사항 : 
     QLayout내에 위치해야함
     부모 내의 마지막 요소여야함
