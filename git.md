@@ -44,7 +44,8 @@ git commit -> :q
 git cherry-pick [commit id]
 [참고자료](https://velog.io/@mollog/Git-Cherry-Pick-%EB%82%B4%EA%B0%80-%EC%9B%90%ED%95%98%EB%8A%94-%EC%BB%A4%EB%B0%8B%EB%A7%8C-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)
 
-
+#### 파일명 변경 방법
+[참고자료](https://dev-hyun.tistory.com/162)
 <br>
 
 -----
