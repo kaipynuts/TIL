@@ -11,6 +11,15 @@ $ git remote add origin https://github.com/coarzip/myproject.git
 $ git push -u origin main 
 ```
 
+### 용어설명
+clone: 복제 (원격 저장소에 있는 소스 로컬로 복제해오기)
+fetch: 동기화 (원격 저장소에서 로컬 저장소로 소스 가져오기)
+pull: 동기화 + 병합 (원격 저장소에서 로컬 저장소로 소스를 가져온 후 현재 브랜치의 소스와 병합해준다)
+commit: 커밋 (내용을 올린다) -> 커밋 메세지 작성 시점
+push: 내용을 서버에 올린다 -> 커밋한 내용을 서버에 적용시키는 명령
+cherry-pick: 
+
+
 #### vscode에서 작업 후 커밋 방법
 1. 소스제어에서 커밋할 내용을 스테이징(+)
 2. 커밋(체크표시) 버튼 클릭 후 코멘트 입력
