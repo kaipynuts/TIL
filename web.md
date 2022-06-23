@@ -90,3 +90,7 @@ ES6 문법
     search 정규식으로 검색
 
     *w3c에서 메뉴얼 보고 리턴값이 있는지 확인해보고 작업하기!
+
+
+### webview 디버깅 방법
+[참고자료](https://holika.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%ED%8C%81-Chrome-DevTools-%EC%9B%B9%EB%B7%B0%EB%A5%BC-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%B4-%EB%B3%B4%EC%9E%90)
