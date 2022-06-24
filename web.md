@@ -94,3 +94,7 @@ ES6 문법
 
 ### webview 디버깅 방법
 [참고자료](https://holika.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%ED%8C%81-Chrome-DevTools-%EC%9B%B9%EB%B7%B0%EB%A5%BC-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%B4-%EB%B3%B4%EC%9E%90)
+
+
+### 모바일 환경 화면 사이즈
+[참고자료](https://zetawiki.com/wiki/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0_%ED%95%B4%EC%83%81%EB%8F%84,_%ED%99%94%EB%A9%B4%EB%B9%84%EC%9C%A8)
