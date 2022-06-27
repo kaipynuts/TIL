@@ -126,3 +126,6 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 
 - rem 보다 더 쓸만한 반응형 사이즈 vw / vh
 [참조 링크](https://nykim.work/85)
+
+- input file 타입 예쁘게 만들기
+[참조 링크](https://webdir.tistory.com/435)
