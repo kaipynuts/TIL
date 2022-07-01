@@ -16,6 +16,10 @@
     9. store
 
 #### Vue
+- v-bind : 단방향
+- v-model : 양방향
+- v-on : 이벤트
+
 routes에 path로 지정을 하면 화면을 세팅할 수 있다.
 
 1. Dispatch()
