@@ -61,6 +61,14 @@ Vue컴포넌트의 watch처럼 $store.watch로 변화를 감지하고 핸들링�
 
 [Vuex 개념 정리](https://webruden.tistory.com/340)
 
+백오피스 CRUD 개발 시
+components
+-> form
+pages
+-> create (include form)
+-> edit (include form)
+-> list
+
 ##### **문제해결**
 > import Vue from 'vue'
 
