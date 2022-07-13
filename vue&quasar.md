@@ -142,3 +142,6 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 - input file 타입 예쁘게 만들기
 [참조 링크](https://webdir.tistory.com/435)
 [vue 참고자료](https://yiunsr.tistory.com/844)
+
+
+[퍼블리싱 가이드](http://www.standard-ui.com/STD_GD/convention/rule_standard.html)
