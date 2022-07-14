@@ -145,3 +145,6 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 
 
 [퍼블리싱 가이드](http://www.standard-ui.com/STD_GD/convention/rule_standard.html)
+
+- CSS 코드 컨벤션 (BEM)
+[참고자료](http://getbem.com/naming/)
