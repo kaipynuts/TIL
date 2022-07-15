@@ -61,6 +61,11 @@ Vue컴포넌트의 watch처럼 $store.watch로 변화를 감지하고 핸들링�
 
 [Vuex 개념 정리](https://webruden.tistory.com/340)
 
+push: URL 이동. 히스토리 스택에 추가되므로 뒤로가기 버튼 동작시 이전 URL 로 이동
+replace: URL 이동. 현재 URL 을 대체하기 때문에 히스토리 스택 쌓지 않음
+go:	숫자만큼 뒤로가기 또는 앞으로 가기 (음수:backward, 양수: forward)
+[router 개념 정리](https://sunny921.github.io/posts/vuejs-router-03/)
+
 백오피스 CRUD 개발 시
 components
 -> form
@@ -148,3 +153,4 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 
 - CSS 코드 컨벤션 (BEM)
 [참고자료](http://getbem.com/naming/)
+[더 디테일한 한국어자료](https://naradesign.github.io/bem-by-example.html)
