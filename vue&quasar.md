@@ -148,11 +148,11 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 [참조 링크](https://webdir.tistory.com/435)
 [vue 참고자료](https://yiunsr.tistory.com/844)
 
+- input checkbox 커스텀
+[참조 링크](https://velog.io/@iamjoo/checkbox-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%BB%A4%EC%8A%A4%ED%85%80)
 
 [퍼블리싱 가이드](http://www.standard-ui.com/STD_GD/convention/rule_standard.html)
 
 - CSS 코드 컨벤션 (BEM)
 [참고자료](http://getbem.com/naming/)
 [더 디테일한 한국어자료](https://naradesign.github.io/bem-by-example.html)
-
-커..커밋....
