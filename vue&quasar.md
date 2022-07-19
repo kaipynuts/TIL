@@ -151,6 +151,43 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 - input checkbox 커스텀
 [참조 링크](https://velog.io/@iamjoo/checkbox-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%BB%A4%EC%8A%A4%ED%85%80)
 
+코드 보류
+```
+.input-box {
+  @include font-gmarket;
+  @include h4;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+  border-bottom: 2px solid #EAEAEA;
+  height: 12vw;
+  }
+
+.input-box::placeholder {
+  color: #AEAEAE;
+}
+
+.input-checkbox-disable {
+  display: none;
+}
+.input-checkbox-enable {
+  width: 5.3vw;
+  height: 5.3vw;
+  border: 1px solid #727272;
+  border-radius: 3px;
+}
+.input-checkbox-enable::after {
+  content:'✔';
+}
+.input-checkbox__label{
+  @include font-gmarket;
+  @include h5;
+  color: #AEAEAE;
+}
+```
+
+- 퍼블리싱 가이드 정의
 [퍼블리싱 가이드](http://www.standard-ui.com/STD_GD/convention/rule_standard.html)
 
 - CSS 코드 컨벤션 (BEM)
