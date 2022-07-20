@@ -149,7 +149,7 @@ absolute 는 부모 컨테이너 기준으로 얼마나 움직일지 정해주�
 [vue 참고자료](https://yiunsr.tistory.com/844)
 
 - input checkbox 커스텀
-[참조 링크](https://velog.io/@iamjoo/checkbox-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%BB%A4%EC%8A%A4%ED%85%80)
+[참조 링크](https://sophiecial.tistory.com/34)
 
 코드 보류
 ```
