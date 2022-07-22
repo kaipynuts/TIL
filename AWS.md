@@ -7,3 +7,15 @@ docker 컨테이너 통해서.. ?
 mysql docker를 하나 띄워서 .. 연결해보라. .. ?
 
 arm 아키텍쳐 기반
+
+EC2로 웹서버 만들기
+[참고자료](https://signalfix.net/ko/aws-ec2%EB%A1%9C-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B3%A0-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%98%EB%8A%94)
+[참고자료2](https://velog.io/@mingtorr/AWS-EC2%EB%A1%9C-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B03-EC2-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0)
+
+공개키 얻는 방법
+```
+$ ssh-keygen -y
+```
+입력 후 .pem 파일명 입력
+
+! permissions error 나서 .. 권한을 400으로 바꿔야 된다는데... 어떻게 바꾸는지 찾아보는중 ㅠ
