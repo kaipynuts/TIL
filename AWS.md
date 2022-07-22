@@ -24,7 +24,7 @@ $ ssh-keygen -y
 *너무 많은 권한이 부여되면 또 에러나므로.. 400으로 부여함.
 4(읽기) 2(쓰기) 실행(1)
 ```
-sudo chmod -R [권한] [파일경로]
+$ sudo chmod -R [권한] [파일경로]
 ```
 
 Mac에서 폴더 경로 얻는 방법
@@ -33,3 +33,16 @@ cmd+i > 해당 폴더 경로가 나온다~ 복붙해서 사용하면 된다
 ssh-rsa 부터 복붙해서 가져오면 된다.
 
 !성공!
+
+2. 인스턴스 생성
+(Ubuntu로 생성)
+
+3. 인스턴스에 웹서버 설치
+[참고자료](https://blog.1nfra.kr/315)
+
+
+- 에러 해결
+> ssh: connect to host ec2-43-200-180-2.ap-northeast-2.compute.amazonaws.com port 22: Operation timed out
+
+[참고자료](https://sangseophwang.tistory.com/76) -> 난 이걸로도 안되네..
+[해결방법](https://velog.io/@johnyworld/ec2%EC%97%90-ssh-%EC%A0%91%EC%86%8D%EC%8B%9C-timeout-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)
